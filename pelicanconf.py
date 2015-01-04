@@ -34,7 +34,7 @@ DEFAULT_PAGINATION = 10
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
-THEME = '/home/sm/Dev/pelican_blog/themes/pelican-bootstrap3'
+THEME = '/home/sm/Dev/pelican_blog/theme/pelican-bootstrap3'
 
 # pelican-bootstrap3 specific configuration below here
 BOOTSTRAP_THEME = 'flatly'
