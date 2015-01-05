@@ -36,6 +36,12 @@ DEFAULT_PAGINATION = 10
 
 THEME = '/home/sm/Dev/pelican_blog/theme/pelican-bootstrap3'
 
+# TODO: Related posts plugin
+# TODO: Liquid tags plugin
+#PLUGINS = ['liquid_tags.img', 'liquid_tags.video',
+#           'liquid_tags.youtube', 'liquid_tags.vimeo',
+#           'liquid_tags.include_code', 'liquid_tags.notebook', ]
+
 # pelican-bootstrap3 specific configuration below here
 BOOTSTRAP_THEME = 'flatly'
 #BOOTSTRAP_NAVBAR_INVERSE = True
@@ -73,12 +79,6 @@ TWITTER_CARDS = True
 #GITHUB_SKIP_FORK = True
 #GITHUB_REPO_COUNT = 3
 #GITHUB_SHOW_USER_LINK = False
-
-# TODO: Related posts plugin
-# TODO: Liquid tags plugin
-#PLUGINS = ['liquid_tags.img', 'liquid_tags.video',
-#           'liquid_tags.youtube', 'liquid_tags.vimeo',
-#           'liquid_tags.include_code', 'liquid_tags.notebook', ]
 
 # TODO: Google Analytics
 # GOOGLE_ANALYTICS_UNIVERSAL = ''
