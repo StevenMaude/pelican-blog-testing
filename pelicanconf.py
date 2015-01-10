@@ -34,14 +34,14 @@ DEFAULT_PAGINATION = 10
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
-THEME = '/home/sm/Dev/pelican_blog/theme/pelican-bootstrap3'
-
 # TODO: Related posts plugin
 # TODO: Liquid tags plugin
 PLUGINS = ['pelican_alias', ]
 #           'liquid_tags.img', 'liquid_tags.video',
 #           'liquid_tags.youtube', 'liquid_tags.vimeo',
 #           'liquid_tags.include_code', 'liquid_tags.notebook', ]
+
+THEME = '/home/sm/Dev/pelican_blog/theme/pelican-bootstrap3'
 
 # pelican-bootstrap3 specific configuration below here
 BOOTSTRAP_THEME = 'flatly'
