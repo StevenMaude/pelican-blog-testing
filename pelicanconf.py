@@ -35,12 +35,8 @@ DEFAULT_PAGINATION = 10
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
-# TODO: Related posts plugin
-# TODO: Liquid tags plugin
+# TODO: Liquid tags plugin or PyEmbed
 PLUGINS = ['pelican_alias', ]
-#           'liquid_tags.img', 'liquid_tags.video',
-#           'liquid_tags.youtube', 'liquid_tags.vimeo',
-#           'liquid_tags.include_code', 'liquid_tags.notebook', ]
 
 THEME = '/home/sm/Dev/pelican_blog/theme/pelican-bootstrap3'
 
