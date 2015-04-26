@@ -42,7 +42,7 @@ THEME = '/home/sm/Dev/pelican_blog/theme/pelican-bootstrap3'
 
 # pelican-bootstrap3 specific configuration below here
 BOOTSTRAP_THEME = 'flatly'
-#BOOTSTRAP_NAVBAR_INVERSE = True
+BOOTSTRAP_NAVBAR_INVERSE = True
 
 # Pygments
 PYGMENTS_STYLE = 'monokai'
