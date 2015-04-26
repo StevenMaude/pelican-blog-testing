@@ -63,15 +63,17 @@ DISPLAY_TAGS_INLINE = True
 TAG_CLOUD_MAX_ITEMS = 10
 #HIDE_SIDEBAR = True
 
-# TODO: add favicon
-#FAVICON = ''
+STATIC_PATHS = ['images', 'extra/favicon.ico', 'extra/site_open_graph.png']
+
+EXTRA_PATH_METADATA = {
+    'extra/favicon.ico': {'path': 'favicon.ico'},
+}
 
 # Content license
 CC_LICENSE = "CC-BY-NC-SA"
 
 # Open Graph
-# TODO: add image
-# OPEN_GRAPH_IMAGE = ''
+OPEN_GRAPH_IMAGE = 'extra/site_open_graph.png'
 TWITTER_USERNAME = "StevenMaude"
 TWITTER_CARDS = True
 
