@@ -26,9 +26,12 @@ AUTHOR_FEED_RSS = None
 #         ('Jinja2', 'http://jinja.pocoo.org/'),)
 
 # Social widget
-SOCIAL = (('Twitter', 'https://twitter.com/StevenMaude'),
-          ('LinkedIn', 'https://linkedin.com/in/StevenMaude'),
-          ('GitHub', 'https://github.com/StevenMaude'),)
+#SOCIAL = (('Twitter', 'https://twitter.com/StevenMaude'),
+#          ('LinkedIn', 'https://linkedin.com/in/StevenMaude'),
+#          ('GitHub', 'https://github.com/StevenMaude'),)
+FOOTER_SOCIAL = (('Twitter', 'https://twitter.com/StevenMaude'),
+                 ('GitHub', 'https://github.com/StevenMaude'),
+                 ('LinkedIn', 'https://linkedin.com/in/StevenMaude'),)
 
 DEFAULT_PAGINATION = 10
 
