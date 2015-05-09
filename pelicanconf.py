@@ -67,17 +67,19 @@ DISPLAY_TAGS_INLINE = True
 TAG_CLOUD_MAX_ITEMS = 10
 #HIDE_SIDEBAR = True
 
-STATIC_PATHS = ['images', 'extra/favicon.ico', 'extra/site_open_graph.png']
+STATIC_PATHS = ['images']
+
+STATIC_EXCLUDES = ['images/.git']
 
 EXTRA_PATH_METADATA = {
-    'extra/favicon.ico': {'path': 'favicon.ico'},
+    'images/extra/favicon.ico': {'path': 'favicon.ico'},
 }
 
 # Content license
 CC_LICENSE = "CC-BY-NC-SA"
 
 # Open Graph
-OPEN_GRAPH_IMAGE = 'extra/site_open_graph.png'
+OPEN_GRAPH_IMAGE = 'images/extra/site_open_graph.png'
 TWITTER_USERNAME = "StevenMaude"
 TWITTER_CARDS = True
 
