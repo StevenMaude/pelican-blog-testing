@@ -41,7 +41,7 @@ DEFAULT_PAGINATION = 10
 # TODO: Liquid tags plugin or PyEmbed
 PLUGINS = ['pelican_alias', ]
 
-THEME = '/home/sm/Dev/pelican_blog/theme/pelican-bootstrap3'
+THEME = 'theme/pelican-bootstrap3'
 
 # pelican-bootstrap3 specific configuration below here
 BOOTSTRAP_THEME = 'flatly'
