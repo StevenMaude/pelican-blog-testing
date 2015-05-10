@@ -20,15 +20,6 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-# Blogroll
-#LINKS = (('Pelican', 'http://getpelican.com/'),
-#         ('Python.org', 'http://python.org/'),
-#         ('Jinja2', 'http://jinja.pocoo.org/'),)
-
-# Social widget
-#SOCIAL = (('Twitter', 'https://twitter.com/StevenMaude'),
-#          ('LinkedIn', 'https://linkedin.com/in/StevenMaude'),
-#          ('GitHub', 'https://github.com/StevenMaude'),)
 FOOTER_SOCIAL = (('Twitter', 'https://twitter.com/StevenMaude'),
                  ('GitHub', 'https://github.com/StevenMaude'),
                  ('LinkedIn', 'https://linkedin.com/in/StevenMaude'),)
