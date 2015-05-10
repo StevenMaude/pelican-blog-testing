@@ -60,8 +60,11 @@ TAG_CLOUD_MAX_ITEMS = 10
 #HIDE_SIDEBAR = True
 TAGS_URL = 'tags.html'
 
+CUSTOM_CSS = 'theme/css/custom.css'
+
 EXTRA_PATH_METADATA = {
     'images/extra/favicon.ico': {'path': 'favicon.ico'},
+    'theme/pelican-bootstrap3/static/css/custom.css': {'path': CUSTOM_CSS}
 }
 
 # Content license
