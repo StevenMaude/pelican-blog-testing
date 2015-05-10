@@ -67,23 +67,11 @@ EXTRA_PATH_METADATA = {
     'theme/pelican-bootstrap3/static/css/custom.css': {'path': CUSTOM_CSS}
 }
 
-# Content license
-CC_LICENSE = "CC-BY-NC-SA"
-
 # Open Graph
 OPEN_GRAPH_IMAGE = 'images/extra/site_open_graph.png'
 TWITTER_USERNAME = "StevenMaude"
 TWITTER_CARDS = True
 
-# GitHub
-#GITHUB_USER = 'StevenMaude'
-#GITHUB_SKIP_FORK = True
-#GITHUB_REPO_COUNT = 3
-#GITHUB_SHOW_USER_LINK = False
-
 FOOTER_SOCIAL = (('Twitter', 'https://twitter.com/StevenMaude'),
                  ('GitHub', 'https://github.com/StevenMaude'),
                  ('LinkedIn', 'https://linkedin.com/in/StevenMaude'),)
-
-# TODO: Addthis
-# ADDTHIS_PROFILE = ''
