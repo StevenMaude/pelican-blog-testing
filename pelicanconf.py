@@ -33,8 +33,8 @@ STATIC_PATHS = ['images']
 STATIC_EXCLUDES = ['images/.git']
 
 # custom pelican-bootstrap3 specific configuration below here
-BOOTSTRAP_THEME = 'flatly'
-BOOTSTRAP_NAVBAR_INVERSE = True
+BOOTSTRAP_THEME = 'cosmo-custom'
+BOOTSTRAP_NAVBAR_INVERSE = False
 
 # Pygments
 PYGMENTS_STYLE = 'monokai'
