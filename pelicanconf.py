@@ -29,7 +29,10 @@ PLUGINS = ['pelican_alias', ]
 
 THEME = 'theme/pelican-bootstrap3'
 
-# pelican-bootstrap3 specific configuration below here
+STATIC_PATHS = ['images']
+STATIC_EXCLUDES = ['images/.git']
+
+# custom pelican-bootstrap3 specific configuration below here
 BOOTSTRAP_THEME = 'flatly'
 BOOTSTRAP_NAVBAR_INVERSE = True
 
@@ -52,10 +55,6 @@ DISPLAY_ARTICLE_INFO_ON_INDEX = True
 DISPLAY_TAGS_INLINE = True
 TAG_CLOUD_MAX_ITEMS = 10
 #HIDE_SIDEBAR = True
-
-STATIC_PATHS = ['images']
-
-STATIC_EXCLUDES = ['images/.git']
 
 EXTRA_PATH_METADATA = {
     'images/extra/favicon.ico': {'path': 'favicon.ico'},
