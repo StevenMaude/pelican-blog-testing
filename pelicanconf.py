@@ -36,6 +36,9 @@ STATIC_EXCLUDES = ['images/.git']
 BOOTSTRAP_THEME = 'cosmo-custom'
 BOOTSTRAP_NAVBAR_INVERSE = False
 
+BANNER_TITLE = "Steven Maude's blog"
+BANNER_SUBTITLE = "Words and stuff."
+
 # Pygments
 PYGMENTS_STYLE = 'monokai'
 
