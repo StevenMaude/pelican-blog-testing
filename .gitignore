@@ -6,3 +6,4 @@ local
 cache
 output
 content
+*.pid
