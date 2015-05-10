@@ -58,6 +58,7 @@ DISPLAY_ARTICLE_INFO_ON_INDEX = True
 DISPLAY_TAGS_INLINE = True
 TAG_CLOUD_MAX_ITEMS = 10
 #HIDE_SIDEBAR = True
+TAGS_URL = 'tags.html'
 
 EXTRA_PATH_METADATA = {
     'images/extra/favicon.ico': {'path': 'favicon.ico'},
