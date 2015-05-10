@@ -20,10 +20,6 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-FOOTER_SOCIAL = (('Twitter', 'https://twitter.com/StevenMaude'),
-                 ('GitHub', 'https://github.com/StevenMaude'),
-                 ('LinkedIn', 'https://linkedin.com/in/StevenMaude'),)
-
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
@@ -78,6 +74,10 @@ TWITTER_CARDS = True
 #GITHUB_SKIP_FORK = True
 #GITHUB_REPO_COUNT = 3
 #GITHUB_SHOW_USER_LINK = False
+
+FOOTER_SOCIAL = (('Twitter', 'https://twitter.com/StevenMaude'),
+                 ('GitHub', 'https://github.com/StevenMaude'),
+                 ('LinkedIn', 'https://linkedin.com/in/StevenMaude'),)
 
 # TODO: Addthis
 # ADDTHIS_PROFILE = ''
