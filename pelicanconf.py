@@ -26,6 +26,7 @@ DEFAULT_PAGINATION = 10
 #RELATIVE_URLS = True
 
 PLUGINS = ['pelican_alias', ]
+MD_EXTENSIONS = ['codehilite(css_class=highlight)', 'extra', 'admonition']
 
 THEME = 'theme/pelican-bootstrap3'
 
