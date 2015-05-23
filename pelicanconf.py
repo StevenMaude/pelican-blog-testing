@@ -34,6 +34,9 @@ STATIC_PATHS = ['images']
 STATIC_EXCLUDES = ['images/.git']
 IGNORE_FILES = ['.#*', 'README.md']
 
+ARTICLE_URL = 'posts/{slug}.html'
+ARTICLE_SAVE_AS = 'posts/{slug}.html'
+
 # custom pelican-bootstrap3 specific configuration below here
 BOOTSTRAP_THEME = 'cosmo-custom'
 BOOTSTRAP_NAVBAR_INVERSE = False
