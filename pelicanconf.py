@@ -32,6 +32,7 @@ THEME = 'theme/pelican-bootstrap3'
 
 STATIC_PATHS = ['images']
 STATIC_EXCLUDES = ['images/.git']
+IGNORE_FILES = ['.#*', 'README.md']
 
 # custom pelican-bootstrap3 specific configuration below here
 BOOTSTRAP_THEME = 'cosmo-custom'
