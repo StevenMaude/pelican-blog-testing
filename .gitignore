@@ -5,3 +5,5 @@ local
 *.pyc
 cache
 output
+content
+*.pid

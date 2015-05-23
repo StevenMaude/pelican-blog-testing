@@ -20,29 +20,25 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-# Blogroll
-#LINKS = (('Pelican', 'http://getpelican.com/'),
-#         ('Python.org', 'http://python.org/'),
-#         ('Jinja2', 'http://jinja.pocoo.org/'),)
-
-# Social widget
-SOCIAL = (('Twitter', 'https://twitter.com/StevenMaude'),
-          ('LinkedIn', 'https://linkedin.com/in/StevenMaude'),
-          ('GitHub', 'https://github.com/StevenMaude'),)
-
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
-# TODO: Liquid tags plugin or PyEmbed
 PLUGINS = ['pelican_alias', ]
+MD_EXTENSIONS = ['codehilite(css_class=highlight)', 'extra', 'admonition']
 
-THEME = '/home/sm/Dev/pelican_blog/theme/pelican-bootstrap3'
+THEME = 'theme/pelican-bootstrap3'
 
-# pelican-bootstrap3 specific configuration below here
-BOOTSTRAP_THEME = 'flatly'
-BOOTSTRAP_NAVBAR_INVERSE = True
+STATIC_PATHS = ['images']
+STATIC_EXCLUDES = ['images/.git']
+
+# custom pelican-bootstrap3 specific configuration below here
+BOOTSTRAP_THEME = 'cosmo-custom'
+BOOTSTRAP_NAVBAR_INVERSE = False
+
+BANNER_TITLE = "Steven Maude's blog"
+BANNER_SUBTITLE = "Words and stuff."
 
 # Pygments
 PYGMENTS_STYLE = 'monokai'
@@ -53,6 +49,7 @@ SHOW_DATE_MODIFIED = True
 
 # Navbar
 DISPLAY_CATEGORIES_ON_MENU = False
+DISABLE_TRANSITIONS = True
 
 # Index page
 DISPLAY_ARTICLE_INFO_ON_INDEX = True
@@ -62,26 +59,20 @@ DISPLAY_ARTICLE_INFO_ON_INDEX = True
 DISPLAY_TAGS_INLINE = True
 TAG_CLOUD_MAX_ITEMS = 10
 #HIDE_SIDEBAR = True
+TAGS_URL = 'tags.html'
 
-STATIC_PATHS = ['images', 'extra/favicon.ico', 'extra/site_open_graph.png']
+CUSTOM_CSS = 'theme/css/custom.css'
 
 EXTRA_PATH_METADATA = {
-    'extra/favicon.ico': {'path': 'favicon.ico'},
+    'images/extra/favicon.ico': {'path': 'favicon.ico'},
+    'theme/pelican-bootstrap3/static/css/custom.css': {'path': CUSTOM_CSS}
 }
 
-# Content license
-CC_LICENSE = "CC-BY-NC-SA"
-
 # Open Graph
-OPEN_GRAPH_IMAGE = 'extra/site_open_graph.png'
+OPEN_GRAPH_IMAGE = 'images/extra/site_open_graph.png'
 TWITTER_USERNAME = "StevenMaude"
 TWITTER_CARDS = True
 
-# GitHub
-#GITHUB_USER = 'StevenMaude'
-#GITHUB_SKIP_FORK = True
-#GITHUB_REPO_COUNT = 3
-#GITHUB_SHOW_USER_LINK = False
-
-# TODO: Addthis
-# ADDTHIS_PROFILE = ''
+FOOTER_SOCIAL = (('Twitter', 'https://twitter.com/StevenMaude'),
+                 ('GitHub', 'https://github.com/StevenMaude'),
+                 ('LinkedIn', 'https://linkedin.com/in/StevenMaude'),)
