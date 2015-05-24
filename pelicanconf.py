@@ -41,6 +41,7 @@ ARTICLE_SAVE_AS = 'posts/{slug}.html'
 BOOTSTRAP_THEME = 'cosmo-custom'
 BOOTSTRAP_NAVBAR_INVERSE = False
 
+BANNER = 'images/extra/banner.jpg'
 BANNER_TITLE = "Steven Maude's blog"
 BANNER_SUBTITLE = "Words and stuff."
 
