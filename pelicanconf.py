@@ -32,7 +32,7 @@ THEME = 'theme/pelican-bootstrap3'
 
 STATIC_PATHS = ['images']
 STATIC_EXCLUDES = ['images/.git']
-IGNORE_FILES = ['.#*', 'README.md']
+IGNORE_FILES = ['.#*', 'README.md', '.git']
 
 ARTICLE_URL = 'posts/{slug}.html'
 ARTICLE_SAVE_AS = 'posts/{slug}.html'
