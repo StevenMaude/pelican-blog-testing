@@ -34,8 +34,42 @@ STATIC_PATHS = ['images']
 STATIC_EXCLUDES = ['images/.git']
 IGNORE_FILES = ['.#*', 'README.md', '.git']
 
-ARTICLE_URL = 'posts/{slug}.html'
-ARTICLE_SAVE_AS = 'posts/{slug}.html'
+# Tidy up URLs; remove .html from most of them except index pages.
+# Files have .html suffix but GitHub Pages will find page without .html in URL.
+# INDEX_SAVE_AS omitted since GitHub needs home page to be index.html
+# so can't fix the issue of index pages having .html suffix
+ARTICLE_URL = 'posts/{slug}'
+ARTICLE_SAVE_AS = ARTICLE_URL + '.html'
+ARTICLE_LANG_URL = '{slug}-{lang}'
+ARTICLE_LANG_SAVE_AS = ARTICLE_LANG_URL + '.html'
+
+DRAFT_URL = 'drafts/{slug}'
+DRAFT_SAVE_AS = DRAFT_URL + '.html'
+DRAFT_LANG_URL = 'drafts/{slug}-{lang}'
+DRAFT_LANG_SAVE_AS = DRAFT_LANG_URL + '.html'
+
+PAGE_URL = 'pages/{slug}'
+PAGE_SAVE_AS = PAGE_URL + '.html'
+PAGE_LANG_URL = 'pages/{slug}-{lang}'
+PAGE_LANG_SAVE_AS = 'pages/{slug}-{lang}' + '.html'
+
+CATEGORY_URL = 'category/{slug}'
+CATEGORY_SAVE_AS = CATEGORY_URL + '.html'
+
+TAG_URL = 'tag/{slug}'
+TAG_SAVE_AS = TAG_URL + '.html'
+
+AUTHOR_URL = 'author/{slug}'
+AUTHOR_SAVE_AS = AUTHOR_URL + '.html'
+
+ARCHIVES_URL = 'archives'
+ARCHIVES_SAVE_AS = ARCHIVES_URL + '.html'
+AUTHORS_URL = 'authors'
+AUTHORS_SAVE_AS = AUTHORS_URL + '.html'
+CATEGORIES_URL = 'categories'
+CATEGORIES_SAVE_AS = CATEGORIES_URL + '.html'
+TAGS_URL = 'tags'
+TAGS_SAVE_AS = TAGS_URL + '.html'
 
 # custom pelican-bootstrap3 specific configuration below here
 BOOTSTRAP_THEME = 'cosmo-custom'
@@ -65,7 +99,6 @@ USE_PAGER = True
 DISPLAY_TAGS_INLINE = True
 TAG_CLOUD_MAX_ITEMS = 10
 #HIDE_SIDEBAR = True
-TAGS_URL = 'tags.html'
 
 CUSTOM_CSS = 'theme/css/custom.css'
 
