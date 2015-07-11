@@ -25,7 +25,7 @@ DEFAULT_PAGINATION = 10
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
 
-PLUGINS = ['pelican_alias', ]
+PLUGINS = ['pelican_alias', 'tag_cloud']
 MD_EXTENSIONS = ['codehilite(css_class=highlight)', 'extra', 'admonition']
 
 THEME = 'theme/pelican-bootstrap3'
