@@ -1,2 +1,2 @@
-pelican>=3.5.0
-pelican-alias>=1.0
+pelican==3.6.0
+pelican-alias==1.0
