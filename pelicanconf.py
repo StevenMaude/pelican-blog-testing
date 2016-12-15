@@ -26,7 +26,8 @@ DEFAULT_PAGINATION = 10
 RELATIVE_URLS = True
 
 PLUGINS = ['pelican_alias', 'tag_cloud']
-MD_EXTENSIONS = ['codehilite(css_class=highlight)', 'extra', 'admonition']
+MD_EXTENSIONS = ['codehilite(css_class=highlight)', 'extra', 'admonition',
+                 'toc']
 
 THEME = 'theme/pelican-bootstrap3'
 
