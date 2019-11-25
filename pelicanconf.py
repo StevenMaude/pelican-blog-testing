@@ -26,8 +26,17 @@ DEFAULT_PAGINATION = 10
 RELATIVE_URLS = True
 
 PLUGINS = ['pelican_alias', 'tag_cloud', 'i18n_subsites']
-MD_EXTENSIONS = ['codehilite(css_class=highlight)', 'extra', 'admonition',
-                 'toc']
+
+MARKDOWN = {
+    'extension_configs': {
+        'markdown.extensions.codehilite': {'css_class': 'highlight'},
+        'markdown.extensions.extra': {},
+        'markdown.extensions.meta': {},
+        'markdown.extensions.admonition': {},
+        'markdown.extensions.toc': {},
+    },
+    'output_format': 'html5',
+}
 
 THEME = 'theme/pelican-bootstrap3/pelican-bootstrap3'
 
@@ -102,7 +111,9 @@ TAG_CLOUD_MAX_ITEMS = 10
 TAG_CLOUD_STEPS = 3
 #HIDE_SIDEBAR = True
 
-JINJA_EXTENSIONS = ['jinja2.ext.i18n']
+JINJA_ENVIRONMENT = {
+    'extensions': ['jinja2.ext.i18n'],
+}
 
 CUSTOM_CSS = 'theme/css/custom.css'
 
