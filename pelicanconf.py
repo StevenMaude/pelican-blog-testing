@@ -25,7 +25,7 @@ DEFAULT_PAGINATION = 10
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
 
-PLUGINS = ['pelican_alias', 'tag_cloud']
+PLUGINS = ['pelican_alias', 'tag_cloud', 'i18n_subsites']
 MD_EXTENSIONS = ['codehilite(css_class=highlight)', 'extra', 'admonition',
                  'toc']
 
@@ -101,6 +101,8 @@ DISPLAY_TAGS_INLINE = True
 TAG_CLOUD_MAX_ITEMS = 10
 TAG_CLOUD_STEPS = 3
 #HIDE_SIDEBAR = True
+
+JINJA_EXTENSIONS = ['jinja2.ext.i18n']
 
 CUSTOM_CSS = 'theme/css/custom.css'
 
