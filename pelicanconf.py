@@ -29,7 +29,7 @@ PLUGINS = ['pelican_alias', 'tag_cloud', 'i18n_subsites']
 MD_EXTENSIONS = ['codehilite(css_class=highlight)', 'extra', 'admonition',
                  'toc']
 
-THEME = 'theme/pelican-bootstrap3'
+THEME = 'theme/pelican-bootstrap3/pelican-bootstrap3'
 
 STATIC_PATHS = ['images']
 STATIC_EXCLUDES = ['images/.git']
