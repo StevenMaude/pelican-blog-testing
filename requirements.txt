@@ -1,4 +1,4 @@
-Markdown==2.6.11
+Markdown==3.1.1
 pelican==3.7.1
 pelican-alias==1.1
 git+https://github.com/StevenMaude/pelican-tag-cloud.git@5d2eb88729695fa4ee8c39df4455b763368488e0#egg=tag-cloud
