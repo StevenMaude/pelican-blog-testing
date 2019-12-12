@@ -1,16 +1,14 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
-from __future__ import unicode_literals
-
-AUTHOR = u'Steven Maude'
-SITENAME = u'stevenmaude.co.uk'
+AUTHOR = 'Steven Maude'
+SITENAME = 'stevenmaude.co.uk'
 SITEURL = ''
 
 PATH = 'content'
 
 TIMEZONE = 'Europe/London'
 
-DEFAULT_LANG = u'en'
+DEFAULT_LANG = 'en'
 DEFAULT_DATE_FORMAT = ('%Y-%m-%d')
 
 # Feed generation is usually not desired when developing
@@ -42,7 +40,7 @@ THEME = 'theme/pelican-bootstrap3/pelican-bootstrap3'
 
 STATIC_PATHS = ['images']
 STATIC_EXCLUDES = ['images/.git']
-IGNORE_FILES = ['.#*', 'README.md', '.git']
+IGNORE_FILES = ['.#*', 'README.md', '.git', '__pycache__']
 
 # Tidy up URLs; remove .html from most of them except index pages.
 # Files have .html suffix but GitHub Pages will find page without .html in URL.
@@ -112,6 +110,8 @@ TAG_CLOUD_STEPS = 3
 #HIDE_SIDEBAR = True
 
 JINJA_ENVIRONMENT = {
+    'trim_blocks': True,
+    'lstrip_blocks': True,
     'extensions': ['jinja2.ext.i18n'],
 }
 
