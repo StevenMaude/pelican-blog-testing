@@ -110,6 +110,8 @@ TAG_CLOUD_STEPS = 3
 #HIDE_SIDEBAR = True
 
 JINJA_ENVIRONMENT = {
+    'trim_blocks': True,
+    'lstrip_blocks': True,
     'extensions': ['jinja2.ext.i18n'],
 }
 
