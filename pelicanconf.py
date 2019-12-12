@@ -40,7 +40,7 @@ THEME = 'theme/pelican-bootstrap3/pelican-bootstrap3'
 
 STATIC_PATHS = ['images']
 STATIC_EXCLUDES = ['images/.git']
-IGNORE_FILES = ['.#*', 'README.md', '.git']
+IGNORE_FILES = ['.#*', 'README.md', '.git', '__pycache__']
 
 # Tidy up URLs; remove .html from most of them except index pages.
 # Files have .html suffix but GitHub Pages will find page without .html in URL.
