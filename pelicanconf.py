@@ -1,16 +1,14 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
-from __future__ import unicode_literals
-
-AUTHOR = u'Steven Maude'
-SITENAME = u'stevenmaude.co.uk'
+AUTHOR = 'Steven Maude'
+SITENAME = 'stevenmaude.co.uk'
 SITEURL = ''
 
 PATH = 'content'
 
 TIMEZONE = 'Europe/London'
 
-DEFAULT_LANG = u'en'
+DEFAULT_LANG = 'en'
 DEFAULT_DATE_FORMAT = ('%Y-%m-%d')
 
 # Feed generation is usually not desired when developing
