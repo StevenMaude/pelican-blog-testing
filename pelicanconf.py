@@ -39,7 +39,7 @@ MARKDOWN = {
 THEME = 'theme/pelican-bootstrap3/pelican-bootstrap3'
 
 PADDED_SINGLE_COLUMN_STYLE = True
-MENUITEMS = [('Tags', 'tags')]
+#MENUITEMS = [('Tags', 'tags')]
 
 STATIC_PATHS = ['images']
 STATIC_EXCLUDES = ['images/.git']
