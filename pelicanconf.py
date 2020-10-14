@@ -130,6 +130,5 @@ OPEN_GRAPH_IMAGE = 'images/extra/site_open_graph.png'
 TWITTER_USERNAME = "StevenMaude"
 TWITTER_CARDS = True
 
-FOOTER_SOCIAL = (('Twitter', 'https://twitter.com/StevenMaude'),
-                 ('GitHub', 'https://github.com/StevenMaude'),
+FOOTER_SOCIAL = (('GitHub', 'https://github.com/StevenMaude'),
                  ('LinkedIn', 'https://linkedin.com/in/StevenMaude'),)
