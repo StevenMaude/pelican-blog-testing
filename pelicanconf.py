@@ -129,5 +129,4 @@ EXTRA_PATH_METADATA = {
 OPEN_GRAPH_IMAGE = 'images/extra/site_open_graph.png'
 TWITTER_CARDS = True
 
-FOOTER_SOCIAL = (('GitHub', 'https://github.com/StevenMaude'),
-                 ('LinkedIn', 'https://linkedin.com/in/StevenMaude'),)
+FOOTER_SOCIAL = (("GitHub", "https://github.com/StevenMaude"),)
