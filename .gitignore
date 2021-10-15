@@ -3,6 +3,7 @@ include
 lib
 local
 *.pyc
+__pycache__
 cache
 output
 content
