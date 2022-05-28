@@ -11,19 +11,19 @@ jobs:
 
     steps:
       - name: Checkout blog-config repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           submodules: recursive
 
       - name: Checkout blog content
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           repository: StevenMaude/blog-content
           path: content
           submodules: recursive
 
       - name: Set up Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v3
         with:
           python-version: '3.10'
 
